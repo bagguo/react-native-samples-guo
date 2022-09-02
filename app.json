@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "AwesomeProject",
-    "slug": "AwesomeProject",
+    "name": "react-native-ui-samples-bob",
+    "slug": "react-native-ui-samples-bob",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
