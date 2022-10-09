@@ -1,3 +1,9 @@
+// import WeatherProject from "./weather/WeatherProject_part1";
+import WeatherProject from "./weather/WeatherProject_part2";
+// import WeatherProject from "./weather/WeatherProject_part3";
+// import WeatherProject from "./weather/WeatherProject";
+export default WeatherProject;
+
 //---------RN offical flex demo 1 --------
 // import React from "react";
 // import { StyleSheet, Text, View } from "react-native";
@@ -137,39 +143,39 @@
 
 //--------------demo3----------
 //from 学习React-Native的正确姿势(一)https://zhuanlan.zhihu.com/p/31894354
-import React from "react";
-import { StyleSheet, Text, View } from "react-native";
+// import React from "react";
+// import { StyleSheet, Text, View } from "react-native";
 
-//wrap 实现了在所在轴向上不能继续延伸而另起一行的效果
-const renderScript2 = () => {
-  return (
-    <View style={{
-      flex: 1,
-      flexDirection: "column",
-      backgroundColor: "grey"
-    }}>
-      <View style={{flex: 1, backgroundColor: "blue"}}/>
-      <View style={{flex: 5, flexDirection: "row", backgroundColor: "skyblue"}}>
-        <View style={{width: 70, backgroundColor: "white"}}/>
+// //wrap 实现了在所在轴向上不能继续延伸而另起一行的效果
+// const renderScript2 = () => {
+//   return (
+//     <View style={{
+//       flex: 1,
+//       flexDirection: "column",
+//       backgroundColor: "grey"
+//     }}>
+//       <View style={{flex: 1, backgroundColor: "blue"}}/>
+//       <View style={{flex: 5, flexDirection: "row", backgroundColor: "skyblue"}}>
+//         <View style={{width: 70, backgroundColor: "white"}}/>
       
-        <View style={{flex: 1, flexDirection: "row", flexWrap: "wrap", backgroundColor: "ppink"}}>
-          <View style={{width: 60, height: 60, margin: 15, backgroundColor: "white"}}/>
-          <View style={{width: 60, height: 60, margin: 15, backgroundColor: "white"}}/>
-          <View style={{width: 60, height: 60, margin: 15, backgroundColor: "white"}}/>
-          <View style={{width: 60, height: 60, margin: 15, backgroundColor: "white"}}/>
-          <View style={{width: 60, height: 60, margin: 15, backgroundColor: "white"}}/>
-          <View style={{width: 60, height: 60, margin: 15, backgroundColor: "white"}}/>
-          <View style={{width: 60, height: 60, margin: 15, backgroundColor: "white"}}/>
-          <View style={{width: 60, height: 60, margin: 15, backgroundColor: "white"}}/>
-          <View style={{width: 60, height: 60, margin: 15, backgroundColor: "white"}}/>
+//         <View style={{flex: 1, flexDirection: "row", flexWrap: "wrap", backgroundColor: "ppink"}}>
+//           <View style={{width: 60, height: 60, margin: 15, backgroundColor: "white"}}/>
+//           <View style={{width: 60, height: 60, margin: 15, backgroundColor: "white"}}/>
+//           <View style={{width: 60, height: 60, margin: 15, backgroundColor: "white"}}/>
+//           <View style={{width: 60, height: 60, margin: 15, backgroundColor: "white"}}/>
+//           <View style={{width: 60, height: 60, margin: 15, backgroundColor: "white"}}/>
+//           <View style={{width: 60, height: 60, margin: 15, backgroundColor: "white"}}/>
+//           <View style={{width: 60, height: 60, margin: 15, backgroundColor: "white"}}/>
+//           <View style={{width: 60, height: 60, margin: 15, backgroundColor: "white"}}/>
+//           <View style={{width: 60, height: 60, margin: 15, backgroundColor: "white"}}/>
 
-          <View style={{width:30, height: 30, position: "absolute", right: 0, bottom: 0, backgroundColor: "red"}}/>
-        </View>
-      </View>
+//           <View style={{width:30, height: 30, position: "absolute", right: 0, bottom: 0, backgroundColor: "red"}}/>
+//         </View>
+//       </View>
 
-      <View style={{flex: 2, backgroundColor: "stellblue"}}/>
-    </View>
-  );
-}
+//       <View style={{flex: 2, backgroundColor: "stellblue"}}/>
+//     </View>
+//   );
+// }
 
-export default renderScript2;
+// export default renderScript2;
