@@ -1,7 +1,7 @@
 // import WeatherProject from "./weather/WeatherProject_part1";
-import WeatherProject from "./weather/WeatherProject_part2";
+// import WeatherProject from "./weather/WeatherProject_part2";
 // import WeatherProject from "./weather/WeatherProject_part3";
-// import WeatherProject from "./weather/WeatherProject";
+import WeatherProject from "./weather/WeatherProject";
 export default WeatherProject;
 
 //---------RN offical flex demo 1 --------

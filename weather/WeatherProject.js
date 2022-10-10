@@ -31,11 +31,12 @@ class WeatherProject extends Component {
     }
     return (
       <View style={styles.container}>
-        <Image
+        {/* <Image
           source={require("./flowers.png")}
           resizeMode="cover"
           style={styles.backdrop}
         >
+          </Image> */}
           <View style={styles.overlay}>
             <View style={styles.row}>
               <Text style={styles.mainText}>
@@ -51,7 +52,7 @@ class WeatherProject extends Component {
             </View>
             {content}
           </View>
-        </Image>
+        
       </View>
     );
   }
