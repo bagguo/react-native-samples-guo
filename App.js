@@ -1,8 +1,13 @@
+// import BookList from "./bestsellers/BookList";
+// export default BookList;
+
 // import WeatherProject from "./weather/WeatherProject_part1";
 // import WeatherProject from "./weather/WeatherProject_part2";
 // import WeatherProject from "./weather/WeatherProject_part3";
-import WeatherProject from "./weather/WeatherProject";
-export default WeatherProject;
+// import WeatherProject from "./weather/WeatherProject";
+// export default WeatherProject;
+
+
 
 //---------RN offical flex demo 1 --------
 // import React from "react";
@@ -179,3 +184,22 @@ export default WeatherProject;
 // }
 
 // export default renderScript2;
+
+
+//-----hello world-----
+import React from 'react';
+import { Text, View } from 'react-native';
+
+const HelloWorldApp = () => {
+  return (
+    <View
+      style={{
+        flex: 1,
+        justifyContent: "center",
+        alignItems: "center"
+      }}>
+      <Text>Hello, world!</Text>
+    </View>
+  )
+}
+export default HelloWorldApp;
