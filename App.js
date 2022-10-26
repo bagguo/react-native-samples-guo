@@ -7,7 +7,9 @@
 // import WeatherProject from "./src/weather/WeatherProject";
 // export default WeatherProject;
 
-import Cat from "./src/basic/Cat";
+// import Cat from "./src/basic/Cat";
+// export default Cat;
+import Cat from "./src/basic/index";
 export default Cat;
 
 //---------RN offical flex demo 1 --------
