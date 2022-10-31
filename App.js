@@ -1,3 +1,8 @@
+import MyWebComponent from "./src/webview/index";
+
+export default MyWebComponent;
+
+
 // import BookList from "./src/bestsellers/BookList";
 // export default BookList;
 
@@ -9,8 +14,8 @@
 
 // import Cat from "./src/basic/Cat";
 // export default Cat;
-import Cat from "./src/basic/index";
-export default Cat;
+// import Cat from "./src/basic/index";
+// export default Cat;
 
 //---------RN offical flex demo 1 --------
 // import React from "react";
