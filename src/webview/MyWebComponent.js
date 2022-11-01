@@ -1,12 +1,14 @@
 import React, { Component } from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { SafeAreaView, StyleSheet, Text, View } from 'react-native';
 import { WebView } from 'react-native-webview';
 
-// ...
 class MyWebComponent extends Component {
   render() {
-    // return <WebView source={{ uri: 'https://reactnative.dev/' }} />;
-    return <WebView source={{ uri: 'http://121.5.173.139:9801/' }} />;
+    return (
+      <SafeAreaView style={{ flex: 1 }}>
+        <WebView style={{ flex: 1 }} source={{ uri: 'http://121.5.173.139:9800/' }} />
+      </SafeAreaView>
+    );
   }
 }
 
