@@ -1,7 +1,8 @@
 {
   "expo": {
-    "name": "react-native-ui-samples-bob",
-    "slug": "react-native-ui-samples-bob",
+    "name": "rn-samples-bob",
+    "slug": "rn-samples-bob",
+    "owner": "bagguo",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
