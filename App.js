@@ -1,6 +1,29 @@
-import MyWebComponent from "./src/webview/index";
+import { StatusBar, useColorScheme } from "react-native";
+import { SafeAreaProvider } from "react-native-safe-area-context";
 
-export default MyWebComponent;
+import { useLoadedAssets } from "./src/hooks/useLoadedAssets";
+import Navigation from "./src/navigation";
+
+export default function App() {
+    const isLoadingComplete = useLoadedAssets();
+    const colorScheme = useColorScheme();
+
+    if (!isLoadingComplete) {
+        return null;
+    } else {
+        return (
+            <SafeAreaProvider>
+                <Navigation colorScheme={colorScheme} />
+                <StatusBar />
+            </SafeAreaProvider>
+        );
+    }
+}
+
+
+// import MyWebComponent from "./src/webview/index";
+
+// export default MyWebComponent;
 
 
 // import BookList from "./src/bestsellers/BookList";
