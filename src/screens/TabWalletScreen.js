@@ -1,4 +1,4 @@
-import { StyleSheet } from "react-native";
+import { Button, StyleSheet, TouchableOpacity } from "react-native";
 import { Text, View } from "../components/Themed";
 import EditScreenInfo from "../components/EditScreenInfo";
 

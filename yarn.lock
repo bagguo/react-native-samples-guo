@@ -3115,6 +3115,13 @@
   "resolved" "https://registry.npmmirror.com/commondir/-/commondir-1.0.1.tgz"
   "version" "1.0.1"
 
+"compare-urls@^2.0.0":
+  "integrity" "sha512-eCJcWn2OYFEIqbm70ta7LQowJOOZZqq1a2YbbFCFI1uwSvj+TWMwXVn7vPR1ceFNcAIt5RSTDbwdlX82gYLTkA=="
+  "resolved" "https://registry.npmjs.org/compare-urls/-/compare-urls-2.0.0.tgz"
+  "version" "2.0.0"
+  dependencies:
+    "normalize-url" "^2.0.1"
+
 "compare-versions@^3.4.0":
   "resolved" "https://registry.npmmirror.com/compare-versions/-/compare-versions-3.6.0.tgz"
   "version" "3.6.0"
@@ -4163,6 +4170,13 @@
 "expo-status-bar@~1.4.0":
   "resolved" "https://registry.npmmirror.com/expo-status-bar/-/expo-status-bar-1.4.0.tgz"
   "version" "1.4.0"
+
+"expo-web-browser@^11.0.0":
+  "integrity" "sha512-LKakUgsDIFLCYWh+RrjB8ANzgD6TTpi0fe00Gu5GrGuEs0cQmEynltq2OVPYOXiaNdcaaora7VFqC47A9rDE+A=="
+  "resolved" "https://registry.npmjs.org/expo-web-browser/-/expo-web-browser-11.0.0.tgz"
+  "version" "11.0.0"
+  dependencies:
+    "compare-urls" "^2.0.0"
 
 "expo@*", "expo@^46.0.10":
   "resolved" "https://registry.npmmirror.com/expo/-/expo-46.0.10.tgz"
@@ -5422,6 +5436,11 @@
   "resolved" "https://registry.npmmirror.com/is-path-inside/-/is-path-inside-3.0.3.tgz"
   "version" "3.0.3"
 
+"is-plain-obj@^1.0.0":
+  "integrity" "sha512-yvkRyxmFKEOQ4pNXCmJG5AEQNlXJS5LaONXo5/cLdTZdWvsZ1ioJEonLGAosKlMWE8lwUy/bJzMjcw8az73+Fg=="
+  "resolved" "https://registry.npmjs.org/is-plain-obj/-/is-plain-obj-1.1.0.tgz"
+  "version" "1.1.0"
+
 "is-plain-object@^2.0.3", "is-plain-object@^2.0.4":
   "resolved" "https://registry.npmmirror.com/is-plain-object/-/is-plain-object-2.0.4.tgz"
   "version" "2.0.4"
@@ -6653,6 +6672,15 @@
   "resolved" "https://registry.npmmirror.com/normalize-path/-/normalize-path-3.0.0.tgz"
   "version" "3.0.0"
 
+"normalize-url@^2.0.1":
+  "integrity" "sha512-D6MUW4K/VzoJ4rJ01JFKxDrtY1v9wrgzCX5f2qj/lzH1m/lW6MhUZFKerVsnyjOhOsYzI9Kqqak+10l4LvLpMw=="
+  "resolved" "https://registry.npmjs.org/normalize-url/-/normalize-url-2.0.1.tgz"
+  "version" "2.0.1"
+  dependencies:
+    "prepend-http" "^2.0.0"
+    "query-string" "^5.0.1"
+    "sort-keys" "^2.0.0"
+
 "normalize-url@^3.0.0":
   "resolved" "https://registry.npmmirror.com/normalize-url/-/normalize-url-3.3.0.tgz"
   "version" "3.3.0"
@@ -7468,6 +7496,11 @@
     "picocolors" "^0.2.1"
     "source-map" "^0.6.1"
 
+"prepend-http@^2.0.0":
+  "integrity" "sha512-ravE6m9Atw9Z/jjttRUZ+clIXogdghyZAuWJ3qEzjT+jI/dL1ifAqhZeC5VHzQp1MSt1+jxKkFNemj/iO7tVUA=="
+  "resolved" "https://registry.npmjs.org/prepend-http/-/prepend-http-2.0.0.tgz"
+  "version" "2.0.0"
+
 "pretty-bytes@5.6.0":
   "resolved" "https://registry.npmmirror.com/pretty-bytes/-/pretty-bytes-5.6.0.tgz"
   "version" "5.6.0"
@@ -7614,6 +7647,15 @@
 "qs@6.7.0":
   "resolved" "https://registry.npmmirror.com/qs/-/qs-6.7.0.tgz"
   "version" "6.7.0"
+
+"query-string@^5.0.1":
+  "integrity" "sha512-gjWOsm2SoGlgLEdAGt7a6slVOk9mGiXmPFMqrEhLQ68rhQuBnpfs3+EmlvqKyxnCo9/PPlF+9MtY02S1aFg+Jw=="
+  "resolved" "https://registry.npmjs.org/query-string/-/query-string-5.1.1.tgz"
+  "version" "5.1.1"
+  dependencies:
+    "decode-uri-component" "^0.2.0"
+    "object-assign" "^4.1.0"
+    "strict-uri-encode" "^1.0.0"
 
 "query-string@^6.13.6":
   "integrity" "sha512-XDxAeVmpfu1/6IjyT/gXHOl+S0vQ9owggJ30hhWKdHAsNPOcasn5o9BW0eejZqL2e4vMjhAxoW3jVHcD6mbcYw=="
@@ -8559,6 +8601,13 @@
     "uuid" "^3.4.0"
     "websocket-driver" "0.6.5"
 
+"sort-keys@^2.0.0":
+  "integrity" "sha512-/dPCrG1s3ePpWm6yBbxZq5Be1dXGLyLn9Z791chDC3NFrpkVbWGzkBwPN1knaciexFXgRJ7hzdnwZ4stHSDmjg=="
+  "resolved" "https://registry.npmjs.org/sort-keys/-/sort-keys-2.0.0.tgz"
+  "version" "2.0.0"
+  dependencies:
+    "is-plain-obj" "^1.0.0"
+
 "source-list-map@^2.0.0":
   "resolved" "https://registry.npmmirror.com/source-list-map/-/source-list-map-2.0.1.tgz"
   "version" "2.0.1"
@@ -8725,6 +8774,11 @@
 "stream-shift@^1.0.0":
   "resolved" "https://registry.npmmirror.com/stream-shift/-/stream-shift-1.0.1.tgz"
   "version" "1.0.1"
+
+"strict-uri-encode@^1.0.0":
+  "integrity" "sha512-R3f198pcvnB+5IpnBlRkphuE9n46WyVl8I39W/ZUTZLz4nqSP/oLYUrcnJrw462Ds8he4YKMov2efsTIw1BDGQ=="
+  "resolved" "https://registry.npmjs.org/strict-uri-encode/-/strict-uri-encode-1.1.0.tgz"
+  "version" "1.1.0"
 
 "strict-uri-encode@^2.0.0":
   "integrity" "sha512-QwiXZgpRcKkhTj2Scnn++4PKtWsH0kpzZ62L2R6c/LUVYv7hVnZqcg2+sMuT6R7Jusu1vviK/MFsu6kNJfWlEQ=="
