@@ -6,9 +6,9 @@ export default {
         screens: {
             Root: {
                 screens: {
-                    TabWallet: {
+                    TabHome: {
                         screens: {
-                            TabWalletScreen: "Wallet",
+                            TabHomeScreen: "Wallet",
                         },
                     },
 

@@ -1,18 +1,14 @@
 import { StyleSheet } from "react-native";
-import EditScreenInfo from "../components/EditScreenInfo";
+import ScrollViewDemo from "../demo/ScrollViewDemo";
+import ScrollViewDemo2 from "../demo/ScrollViewDemo2";
 import { View, Text } from "../components/Themed";
 
 
 export default function TabSettingScreen() {
     return (
         <View style={styles.container}>
-            <Text style={styles.title}>Tab Setting</Text>
-            <View
-                style={styles.separator}
-                lightColor="#eee"
-                darkColor="rgba(255,255,255,0.1)"
-            />
-            <EditScreenInfo path="/screens/TabSettingScreen.tsx" />
+            {/* <ScrollViewDemo2 /> */}
+            <ScrollViewDemo />
         </View>
     );
 }

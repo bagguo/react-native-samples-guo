@@ -5,7 +5,7 @@ import { createStackNavigator } from "@react-navigation/stack";
 import { MaterialCommunityIcons } from "@expo/vector-icons"
 import Ionicons from "@expo/vector-icons/Ionicons";
 
-import TabWalletScreen from "../screens/TabWalletScreen";
+import TabHomeScreen from "../screens/TabHomeScreen";
 import TabMinerScreen from "../screens/TabMinerScreen";
 import TabSettingScreen from "../screens/TabSettingScreen";
 import Colors from "../constants/Colors";
@@ -18,12 +18,12 @@ export default function BottomTabNavigator() {
 
     return (
         <BottomTab.Navigator
-            initialRouteName="TabWallet"
+            initialRouteName="TabHome"
             screenOptions={{ tabBarActivityTintColor: Colors[colorScheme].tint }}
         >
             <BottomTab.Screen
-                name="Wallet"
-                component={TabWalletNavigator}
+                name="Home"
+                component={TabHomeNavigator}
                 options={{ tabBarIcon: makeIconRender("home") }}
             />
 
@@ -53,17 +53,17 @@ function TabBarIcon(props) {
     return <Ionicons size={30} style={{ marginBottom: -3 }} {...props} />;
 }
 
-const TabWalletStack = createStackNavigator();
+const TabHomeStack = createStackNavigator();
 
-function TabWalletNavigator() {
+function TabHomeNavigator() {
     return (
-        <TabWalletStack.Navigator>
-            <TabWalletStack.Screen
-                name="TabWalletScreen"
-                component={TabWalletScreen}
-                options={{ headerTitle: "Tab wallet Title" }}
+        <TabHomeStack.Navigator>
+            <TabHomeStack.Screen
+                name="TabHomeScreen"
+                component={TabHomeScreen}
+                options={{ headerTitle: "Tab Home Title" }}
             />
-        </TabWalletStack.Navigator>
+        </TabHomeStack.Navigator>
     );
 }
 
